@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Combustível</title>
+</head>
+<body>
+  <h1>Calculadora de Combustível</h1>
+  <label for="time">Tempo gasto na viagem (em horas):</label>
+  <input type="number" id="time" name="time" step="0.1"><br><br>
+  
+  <label for="speed">Velocidade média durante a viagem (em km/h):</label>
+  <input type="number" id="speed" name="speed" step="0.1"><br><br>
+  
+  <button onclick="calculateFuel()">Calcular</button>
+  
+  <p id="result"></p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
